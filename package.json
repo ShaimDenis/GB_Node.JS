@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hw_1_01": "node HomeWork_1/hello-npm.js",
+    "hw_1_02": "node HomeWork_1/task02.js",
+    "hw_1_03": "node HomeWork_1/task03.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/ShaimDenis/GB_Node.JS/issues"
   },
-  "homepage": "https://github.com/ShaimDenis/GB_Node.JS#readme"
+  "homepage": "https://github.com/ShaimDenis/GB_Node.JS#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "chalk": "^4.1.0",
+    "mathjs": "^9.0.0"
+  }
 }
